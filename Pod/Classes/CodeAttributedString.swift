@@ -86,6 +86,7 @@ open class CodeAttributedString : NSTextStorage
     #endif
     
     /// Language syntax to use for highlighting. Providing nil will disable highlighting.
+    @objc
     open var language : String?
     {
         didSet
